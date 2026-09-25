@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/Users/sirpa/Documents/College/ece230L-group314/class/maxterm.v,1790357178,verilog,,C:/Users/sirpa/Documents/College/ece230L-group314/class/minterm.v,,maxterm,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/sirpa/Documents/College/ece230L-group314/class/minterm.v,1790357089,verilog,,C:/Users/sirpa/Documents/College/ece230L-group314/class/naive.v,,minterm,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/sirpa/Documents/College/ece230L-group314/class/naive.v,1790355834,verilog,,C:/Users/sirpa/Documents/College/ece230L-group314/class/top.v,,naive,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/sirpa/Documents/College/ece230L-group314/class/test.v,1790354936,verilog,,,,test,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/sirpa/Documents/College/ece230L-group314/class/top.v,1790354936,verilog,,C:/Users/sirpa/Documents/College/ece230L-group314/class/test.v,,top,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/week_4_SOP_POS_KMAPS.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
