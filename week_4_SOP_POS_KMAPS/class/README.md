@@ -15,7 +15,7 @@ using an implemented design on your Basys3 boards.
 
 ## Lab Summary
 
-Summarize your learnings from the lab here.
+I learned how to break down truth tables and implement them into the verilog system for use in circuits.
 
 ## Lab Questions
 
