@@ -1,0 +1,299 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Fri Oct  2 10:45:04 2026
+# Process ID         : 15320
+# Current directory  : C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/week_4_SOP_POS_KMAPS.runs/synth_1
+# Command line       : vivado.exe -log test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source test.tcl
+# Log file           : C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/week_4_SOP_POS_KMAPS.runs/synth_1/test.vds
+# Journal file       : C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/week_4_SOP_POS_KMAPS.runs/synth_1\vivado.jou
+# Running On         : LAPTOP-888HN5EO
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 9 5900HS with Radeon Graphics        
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16542 MB
+# Swap memory        : 1073 MB
+# Total Virtual      : 17616 MB
+# Available Virtual  : 6489 MB
+#-----------------------------------------------------------
+source test.tcl -notrace
+create_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 538.598 ; gain = 222.137
+Command: read_checkpoint -auto_incremental -incremental C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/week_4_SOP_POS_KMAPS.srcs/utils_1/imports/synth_1/top.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/week_4_SOP_POS_KMAPS.srcs/utils_1/imports/synth_1/top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top test -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6384
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1273.418 ; gain = 538.875
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'test' [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:1]
+WARNING: [Synth 8-2898] ignoring pulldown [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:13]
+WARNING: [Synth 8-2898] ignoring pulldown [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:14]
+WARNING: [Synth 8-2898] ignoring pulldown [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:15]
+WARNING: [Synth 8-11581] system task call 'dumpvars' not supported [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:18]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:22]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:27]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:22]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:27]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:22]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:27]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:22]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:27]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:22]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:27]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:22]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:27]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:22]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:27]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:22]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:27]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:22]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:27]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:22]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:27]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:22]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:27]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:22]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:27]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:22]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:27]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:22]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:27]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:22]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:27]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:22]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:27]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:33]
+WARNING: [Synth 8-11581] system task call 'finish' not supported [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:36]
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'naive' [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/naive.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'naive' (0#1) [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/naive.v:1]
+INFO: [Synth 8-6157] synthesizing module 'minterm' [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/minterm.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'minterm' (0#1) [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/minterm.v:1]
+INFO: [Synth 8-6157] synthesizing module 'maxterm' [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/maxterm.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'maxterm' (0#1) [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/maxterm.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/top.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'test' (0#1) [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1391.988 ; gain = 657.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1391.988 ; gain = 657.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1391.988 ; gain = 657.445
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1391.988 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/constraints.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/constraints.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/constraints.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/constraints.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/constraints.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/constraints.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/constraints.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/constraints.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/constraints.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/constraints.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/constraints.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/constraints.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/constraints.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/constraints.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/constraints.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1453.094 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1453.094 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 1453.094 ; gain = 718.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 1453.094 ; gain = 718.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 1453.094 ; gain = 718.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/week_4_SOP_POS_KMAPS.srcs/utils_1/imports/synth_1/top.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 1453.094 ; gain = 718.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 1453.094 ; gain = 718.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 1453.094 ; gain = 718.551
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:49 . Memory (MB): peak = 1453.094 ; gain = 718.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:56 ; elapsed = 00:01:01 . Memory (MB): peak = 1569.039 ; gain = 834.496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:56 ; elapsed = 00:01:01 . Memory (MB): peak = 1569.039 ; gain = 834.496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:56 ; elapsed = 00:01:01 . Memory (MB): peak = 1578.574 ; gain = 844.031
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:07 ; elapsed = 00:01:12 . Memory (MB): peak = 1828.430 ; gain = 1093.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:07 ; elapsed = 00:01:12 . Memory (MB): peak = 1828.430 ; gain = 1093.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:07 ; elapsed = 00:01:12 . Memory (MB): peak = 1828.430 ; gain = 1093.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:07 ; elapsed = 00:01:12 . Memory (MB): peak = 1828.430 ; gain = 1093.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:07 ; elapsed = 00:01:12 . Memory (MB): peak = 1828.430 ; gain = 1093.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:07 ; elapsed = 00:01:12 . Memory (MB): peak = 1828.430 ; gain = 1093.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:07 ; elapsed = 00:01:12 . Memory (MB): peak = 1828.430 ; gain = 1093.887
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:43 ; elapsed = 00:01:08 . Memory (MB): peak = 1828.430 ; gain = 1032.781
+Synthesis Optimization Complete : Time (s): cpu = 00:01:07 ; elapsed = 00:01:13 . Memory (MB): peak = 1828.430 ; gain = 1093.887
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1828.430 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1836.758 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 15521a21
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 45 Warnings, 8 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:15 ; elapsed = 00:01:49 . Memory (MB): peak = 1836.758 ; gain = 1290.645
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/week_4_SOP_POS_KMAPS.runs/synth_1/test.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file test_utilization_synth.rpt -pb test_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Oct  2 10:47:31 2026...

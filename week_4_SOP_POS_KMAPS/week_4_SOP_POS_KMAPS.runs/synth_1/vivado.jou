@@ -3,11 +3,11 @@
 # SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Fri Sep 25 11:27:39 2026
-# Process ID         : 16668
+# Start of session at: Fri Oct  2 10:45:04 2026
+# Process ID         : 15320
 # Current directory  : C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/week_4_SOP_POS_KMAPS.runs/synth_1
-# Command line       : vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
-# Log file           : C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/week_4_SOP_POS_KMAPS.runs/synth_1/top.vds
+# Command line       : vivado.exe -log test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source test.tcl
+# Log file           : C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/week_4_SOP_POS_KMAPS.runs/synth_1/test.vds
 # Journal file       : C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/week_4_SOP_POS_KMAPS.runs/synth_1\vivado.jou
 # Running On         : LAPTOP-888HN5EO
 # Platform           : Windows Server 2016 or Windows 10
@@ -19,6 +19,6 @@
 # Host memory        : 16542 MB
 # Swap memory        : 1073 MB
 # Total Virtual      : 17616 MB
-# Available Virtual  : 7356 MB
+# Available Virtual  : 6489 MB
 #-----------------------------------------------------------
-source top.tcl -notrace
+source test.tcl -notrace

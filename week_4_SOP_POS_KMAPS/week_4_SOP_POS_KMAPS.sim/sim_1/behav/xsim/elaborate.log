@@ -7,11 +7,11 @@ Starting static elaboration
 Pass Through NonSizing Optimizer
 Completed static elaboration
 Starting simulation data flow analysis
-WARNING: [XSIM 43-4099] "C:/Users/sirpa/Documents/College/ece230L-group314/class/test.v" Line 1. Module test doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/sirpa/Documents/College/ece230L-group314/class/top.v" Line 1. Module top doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/sirpa/Documents/College/ece230L-group314/class/naive.v" Line 1. Module naive doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/sirpa/Documents/College/ece230L-group314/class/minterm.v" Line 1. Module minterm doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/sirpa/Documents/College/ece230L-group314/class/maxterm.v" Line 1. Module maxterm doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/test.v" Line 1. Module test doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/top.v" Line 1. Module top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/naive.v" Line 1. Module naive doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/minterm.v" Line 1. Module minterm doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sirpa/Documents/College/ece230L-group314/week_4_SOP_POS_KMAPS/class/maxterm.v" Line 1. Module maxterm doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.naive
